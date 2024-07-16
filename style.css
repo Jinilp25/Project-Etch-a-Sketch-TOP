@@ -1,6 +1,23 @@
-#container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 960px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  display: flex;
+  background-color: wheat;
+  border: 1px solid black;
+}
+
+h1 {
+  text-decoration: underline;
 }
